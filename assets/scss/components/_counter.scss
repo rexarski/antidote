@@ -1,24 +1,34 @@
-.site-counter{
+.site-counter {
   padding: 85px 0;
-  color: $white;
-  background: $secondary-color;
-  .section-title{
+  color: $textdark;
+  background: $yellow;
+
+  .section-title {
     margin-bottom: 40px;
+
+    h2 {
+      color: $textdark !important;
+      font-weight: 600;
+    }
   }
-  @include mobile{
+
+  @include mobile {
     padding: 50px 0;
   }
-  &-item{
-    @include desktop{
+
+  &-item {
+    @include desktop {
       margin-bottom: 30px;
       text-align: center;
     }
-    &-title{
+
+    &-title {
       font-size: 20px;
-      font-weight: 300;
+      font-weight: 400;
     }
-    &-number{
-      color: $white;
+
+    &-number {
+      color: $textdark;
       font-size: 60px;
       margin-bottom: 0;
       font-weight: 700;

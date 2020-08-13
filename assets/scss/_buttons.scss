@@ -1,50 +1,59 @@
-.btn{
+.btn {
   font-family: $secondary-font;
   border: none;
   color: $white !important;
   padding: 20px 45px;
-  border-radius: 0;
-  &:focus{
+  border-radius: 5px;
+
+  &:focus {
     box-shadow: none;
   }
-  @include desktop{
+
+  @include desktop {
     padding: 17px 40px;
   }
-  .btn-area{
+
+  .btn-area {
     display: block;
     overflow: hidden;
-    span{
+
+    span {
       position: relative;
       display: block;
       padding: 2px 0;
-      transition: transform .9s cubic-bezier(.19,1,.22,1);
+      transition: transform .9s cubic-bezier(.19, 1, .22, 1);
       transform-origin: left center;
-      &::after{
+
+      &::after {
         content: attr(data-text);
         position: absolute;
         top: 150%;
         left: 0;
         transform: skewY(30deg);
         transform-origin: left center;
-        transition: transform .9s cubic-bezier(.19,1,.22,1);
+        transition: transform .9s cubic-bezier(.19, 1, .22, 1);
       }
     }
   }
-  &:hover{
-    .btn-area{
-      span{
+
+  &:hover {
+    .btn-area {
+      span {
         transform: translateY(-150%) skewY(7deg);
-        &::after{
+
+        &::after {
           transform: skewY(-7deg);
         }
       }
     }
   }
-  &:visited{
-    .btn-area{
-      span{
+
+  &:visited {
+    .btn-area {
+      span {
         transform: translateY(-150%) skewY(7deg);
-        &::after{
+
+        &::after {
           transform: skewY(-7deg);
         }
       }
@@ -52,26 +61,42 @@
   }
 }
 
-.btn-sm{
+.btn-sm {
   padding: 15px 40px !important;
 }
 
-.btn-sm-rounded{
-  border-radius: 40px;
+.btn-sm-rounded {
+  // border-radius: 40px;
+  border-radius: 5px;
+  color: $white !important;
 }
 
-.btn-primary{
-  background: $primary-color;
-  color: $white;
-  &:hover{
+.btn-primary {
+  // background: $primary-color;
+  // color: $white;
+  background-color: transparent;
+  color: $primary-color !important;
+  border: 2px solid;
+  border-color: $primary-color;
+
+  &:hover {
     background: darken($color: $primary-color, $amount: 10);
+    border: 2px solid;
+    border-color: $primary-color;
+    color: $white !important;
   }
 }
 
-.btn-secondary{
-  background: $secondary-color;
-  color: $white;
-  &:hover{
+.btn-secondary {
+  background: transparent;
+  color: $secondary-color !important;
+  border: 2px solid;
+  border-color: $secondary-color;
+
+  &:hover {
     background: darken($color: $secondary-color, $amount: 10);
+    border: 2px solid;
+    border-color: $secondary-color;
+    color: $white !important;
   }
 }
