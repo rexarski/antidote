@@ -15,10 +15,10 @@ weight = 1
 name = "About"
 url = "about"
 weight = 2
-[[menu.nav]]
-name = "Pricing"
-url = "price"
-weight = 3
+# [[menu.nav]]
+# name = "Pricing"
+# url = "price"
+# weight = 3
 [[menu.nav]]
 name = "Portfolio"
 url = "portfolio"
@@ -64,29 +64,26 @@ tagline = "12 RULES FOR LIFE"
 [params.portfolio]
 enable = true
 subtitle = "Crafting experiences and seeking to make the complex clear & beautiful."
-title = "OUR RECENT WORKS"
+title = "OUR RECENT PROJECTS"
 
 [params.call_to_action]
-background_image = "images/backgrounds/cta-background.jpg"
+button = "Enquire"
+button_url = "contact"
 enable = true
-primary_button = "Submit Query"
-primary_button_url = "contact"
-secondary_button = "Not Convinced"
-secondary_button_url = "portfolio"
 title = "LET’S WORK TOGETHER"
 
 [params.footer]
 # Footer Contact Info
 [params.footer.contactInfo]
-address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-email = "info@roxo.co"
-phone = "409-896-1444"
+address = "1 Elouera St.<br>Braddon, ACT 2612"
+email = "info@k2l.com.au"
+phone = "0422-222-222"
 title = "Contact Info"
 # Footer Sitemap
 [params.footer.sitemap]
 title = "Sitemap"
 [[params.footer.sitemap.link]]
-name = "About Company"
+name = "About"
 url = "about"
 [[params.footer.sitemap.link]]
 name = "Projects"

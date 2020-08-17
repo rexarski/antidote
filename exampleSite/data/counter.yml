@@ -1,6 +1,6 @@
-enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
-counter_item: 
+enable: true
+heading: "This is a Data Counter to Quantify your Accomplishments!"
+counter_item:
   - title: "Happy Clients"
     number: "250"
 
