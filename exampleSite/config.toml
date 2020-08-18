@@ -20,7 +20,7 @@ weight = 2
 # url = "price"
 # weight = 3
 [[menu.nav]]
-name = "Portfolio"
+name = "Project"
 url = "portfolio"
 weight = 4
 [[menu.nav]]
@@ -72,6 +72,15 @@ button_url = "contact"
 enable = true
 title = "LET’S WORK TOGETHER"
 
+[params.contactcards]
+address_line1 = "1 ABC Street"
+address_line2 = "Sydney, NSW 2000"
+email = "mail@mail.com"
+map_url = "https://i.imgur.com/fAZ7sj0.png"
+office = "Sydney Office"
+tel = "0444-222-222"
+title = "Contact Us"
+
 [params.footer]
 # Footer Contact Info
 [params.footer.contactInfo]
@@ -111,5 +120,5 @@ name = "Instagram"
 url = "#"
 # Footer Service
 [params.footer.service]
-description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
-title = "We help brands:"
+description = "Service 1<br>Service 2<br>Service 3"
+title = "We help our clients:"

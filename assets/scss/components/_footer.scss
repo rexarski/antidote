@@ -1,62 +1,78 @@
-.site-footer{
-  background: $secondary-color;
+.site-footer {
+  background: $white;
   padding: 100px 0;
-  &-logo{
+
+  &-logo {
     margin-bottom: 50px;
-    @include mobile{
+
+    @include mobile {
       text-align: center;
     }
   }
-  &-widget{
-    @include desktop{
+
+  &-widget {
+    @include desktop {
       margin-bottom: 40px;
     }
-    @include mobile{
+
+    @include mobile {
       text-align: center;
     }
-    &-title{
-      color: $white;
+
+    &-title {
+      color: $textdark;
       margin-bottom: 30px;
-      @include desktop{
+
+      @include desktop {
         margin-bottom: 20px;
       }
     }
-    &-description{
-      color: $white;
+
+    &-description {
+      color: #545454;
       line-height: 30px;
-      a{
-        color: $white;
+
+      a {
+        color: #545454;
       }
     }
-    &-links{
+
+    &-links {
       margin: 0;
       padding: 0;
-      li{
+
+      li {
         list-style: none;
-        a{
-          color: $white;
+
+        a {
+          color: #545454;
           transition: all 0.3s $site-ease;
           display: block;
         }
-        &:not(:last-child){
-          a{
+
+        &:not(:last-child) {
+          a {
             padding-bottom: 9px;
           }
         }
       }
     }
-    &-top{
-      @include mobile{
+
+    &-top {
+      @include mobile {
         text-align: center;
         display: block;
       }
-      img{
+
+      img {
         margin-bottom: 20px;
       }
-      p{
-        color: $white;
+
+      p {
+        color: #545454;
       }
-      &:hover{
+
+      &:hover {
         text-decoration: none;
       }
     }

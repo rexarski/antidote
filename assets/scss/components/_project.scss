@@ -37,12 +37,12 @@
         margin-bottom: 0;
 
         a {
-          color: $text-color-dark;
+          color: $textdark;
           transition: 0.3s ease;
 
           &:hover {
             text-decoration: none;
-            color: $primary-color;
+            color: $textdark;
           }
         }
       }
@@ -52,7 +52,7 @@
         bottom: 40px;
         display: block;
         width: 100%;
-        color: $text-color;
+        color: $textdark;
         opacity: 0;
         transform: translateY(20px);
         transition: all 0.3s $site-ease;
@@ -116,7 +116,7 @@
 
   &-header {
     padding: 170px 0 100px;
-    background: $gray;
+    background: $greydark;
 
     @include tablet {
       padding: 120px 0 80px;
@@ -125,9 +125,10 @@
     &-content {
       h1 {
         font-size: 55px;
+        color: $white;
 
         span {
-          color: $primary-color;
+          color: $yellow;
         }
 
         @include tablet {
@@ -149,7 +150,7 @@
         display: block;
         font-size: 30px;
         font-weight: 300;
-        color: $text-color-dark;
+        color: $white;
         margin-bottom: 20px;
 
         @include tablet {
@@ -187,15 +188,15 @@
           border-radius: 0;
           border: none;
           padding: 12px 20px;
-          color: $text-color-dark;
+          color: $greydark;
           font-weight: 300;
           transition: all 0.3s ease;
         }
 
         &.active {
           .page-link {
-            background-color: $primary-color;
-            color: $white;
+            background-color: $yellow;
+            color: $greydark;
           }
         }
 
@@ -253,7 +254,7 @@
         position: relative;
         font-size: 24px;
         font-weight: 300;
-        color: $text-color-dark;
+        color: $greydark;
         display: flex;
         margin-left: auto;
         justify-content: flex-end;
@@ -301,7 +302,7 @@
       }
 
       img {
-        filter: invert(1);
+        filter: invert(0.5);
         transform: rotate(90deg);
         margin-left: 30px;
       }

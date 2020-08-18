@@ -1,8 +1,10 @@
 ---
 title: "About Us"
 date: 2018-07-12T18:19:33+06:00
-heading : "WE ARE ROXO DESIGN. AN AWARD-WINNING CREATIVE STUDIO IN FLORIDA."
-description : "We are specialized in developing forward-thinking brand identities, websites, illustration and animation for all types of customers. And we do this by bringing our customers through each phase of the design process with us."
+heading : "We bring local knowledge and"
+supertitle: "global expertise"
+description : "Our teams work collaboratively with clients and partners towards mitigating risk, navigating challenges, finding agility and flexibility where it’s needed, and creating innovative solutions.
+With our project teams living and working in the areas where we operate, we bring local knowledge and global expertise to the management of our operations."
 expertise_title: "Expertise"
-expertise_sectors: ["Customer Experience Design", "Digital Products", "Development", "Campaign & Content", "Employer Branding", "Animation & Motion Graphics", "Packaging & Product Design", "Retail & Spacial", "Print & Editorial Design", "Concept/Text", "Information Design"]
+expertise_sectors: ["Expertise 1", "Expertise 2", "Expertise 3", "Expertise 4", "Expertise 5", "Expertise 6", "Expertise 7", "Expertise 8", "Expertise 9", "Expertise 10"]
 ---

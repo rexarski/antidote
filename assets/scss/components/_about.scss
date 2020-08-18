@@ -1,43 +1,65 @@
-.site-about{
-  &-header{
+.site-about {
+  &-header {
     padding-top: 80px;
-    background-color: $gray;
-    @include mobile{
+    background-color: $projbackground;
+
+    @include mobile {
       padding-top: 60px;
       text-align: center;
     }
   }
-  &-wrapper{
+
+  &-wrapper {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  &-company{
-    background: $primary-color;
+
+  &-company {
+    background: $yellow;
     width: 40%;
     padding: 70px 38px;
-    @include desktop{
+    margin: 20px 0;
+    box-shadow: 0px 35px 45px rgba(0, 0, 0, 0.04), 0px 35px 45px rgba(0, 0, 0, 0.03), 0px 35px 45px rgba(0, 0, 0, 0.02), 0px 35px 45px rgba(0, 0, 0, 0.01);
+
+    @include desktop {
       width: 100%;
       margin-bottom: 20px;
     }
-    h1{
-      color: $white;
+
+    h1 {
+      color: $textdark;
       font-weight: 400;
-      font-size: 25px;
-      line-height: 60px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+      font-size: 48px;
+      line-height: 64px;
+      // text-transform: uppercase;
+      // letter-spacing: 1px;
+      font-family: $belgrano;
+
+      p {
+        color: $textdark;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 64px;
+        font-family: $belgrano;
+      }
     }
   }
-  &-description{
+
+  &-description {
     width: 60%;
     padding-left: 50px;
-    @include desktop{
+
+    @include desktop {
       width: 100%;
       padding: 0 38px;
     }
-    p{
+
+    p {
+      color: $textdark;
+      font-family: $cabin;
       font-size: 25px;
+      line-height: 37.5px;
       font-weight: 300;
       margin-bottom: 0;
     }

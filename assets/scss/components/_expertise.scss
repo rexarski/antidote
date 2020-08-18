@@ -1,19 +1,30 @@
-.site-expertise{
+.site-expertise {
   padding: 100px 0;
-  background: $gray;
-  &-list{
+  background: $greydark;
+
+  h2 {
+    color: $projbackground;
+  }
+
+
+
+  &-list {
     padding: 0;
     margin: 10px 0 0 20px;
-    @include mobile{
+
+    @include mobile {
       text-align: center;
       margin: 0;
     }
-    li{
+
+    li {
       list-style: none;
       font-size: 25px;
+      line-height: 37.5px;
       font-weight: 300;
-      color: $text-color-dark;
-      &:not(:last-child){
+      color: $projbackground;
+
+      &:not(:last-child) {
         margin-bottom: 10px;
       }
     }

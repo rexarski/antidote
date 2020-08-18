@@ -1,4 +1,7 @@
 {{ define "main" }}
+
+{{ partial "contactcards.html" . }}
+
 <section class="site-contact">
   <div class="container">
     <div class="row">
@@ -6,6 +9,9 @@
         <h1 class="site-contact-title">
           {{ .Params.heading | safeHTML }}
         </h1>
+        <h3 class="site-contact-description">
+          {{ .Params.description }}
+        </h3>
       </div>
       <div class="col-lg-6 ml-auto">
         <div class="site-contact-form">
@@ -25,13 +31,14 @@
                 <div class="select-wrapper">
                   <select class="form-control" id="projectType" name="project-type">
                     <option value="" selected disabled hidden>Project Type</option>
-                    <option value="gd">Graphics Design</option>
-                    <option value="wb">Web Design</option>
+                    <option value="gd">{{ .Params.enquiry_option_1 }}</option>
+                    <option value="wb">{{ .Params.enquiry_option_2 }}</option>
                   </select>
                 </div>
               </div>
               <div class="col-12">
-                <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="About the Project"></textarea>
+                <textarea class="form-control" id="aboutProject" name="about-project" rows="6"
+                  placeholder="About the Project"></textarea>
               </div>
               <div class="col-12">
                 <button type="submit" class="btn btn-primary" id="contact-form-button">

@@ -1,0 +1,24 @@
+{{ with .Site.Params.contactcards }}
+
+<section class="site-contactcards">
+  <div class="container">
+    <div class="gameListContainer">
+      <div class="game" id="third_card">
+        <img src="{{ .map_url }}" alt="missing map">
+      </div>
+      <div class="game" id="second_card">
+        <div class="title">{{ .office }}</div>
+        <div class="participantList">
+          <div class="participant">{{ .address_line1 }}</div>
+          <div class="participant">{{ .address_line2 }}</div>
+          <div class="participant">{{ .tel }}</div>
+          <div class="participant"><a class="contactcard-email" href="mailto:{{ .email }}">{{ .email }}</a></div>
+        </div>
+      </div>
+      <div class="game" id="first_card">
+        <div class="title">{{ .title }}</div>
+      </div>
+    </div>
+</section>
+
+{{ end }}

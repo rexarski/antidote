@@ -8,6 +8,7 @@
           <div class="site-about-company">
             <h1>
               {{ .Params.heading }}
+              <p>{{ .Params.supertitle }}</p>
             </h1>
           </div>
           <div class="site-about-description">
@@ -18,7 +19,6 @@
         </div>
       </div>
     </div>
-  </div>
 </section>
 
 <section class="site-expertise">
@@ -42,9 +42,9 @@
   </div>
 </section>
 
-{{ partial "clients.html" . }}
-
 {{ partial "team.html" . }}
+
+{{ partial "clients.html" . }}
 
 {{ partial "call-to-action.html" . }}
 
