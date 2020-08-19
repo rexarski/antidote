@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "hugo-antidote.netlify.app"
 languageCode = "en-us"
 summarylength = 25
 theme = "antidote"
