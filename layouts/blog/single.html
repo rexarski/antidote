@@ -9,11 +9,22 @@
           <h2 class="blog-title">{{ .Title }}</h2>
           <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
           {{ .Content }}
+
         </article>
       </div>
     </div>
   </div>
 </section>
+
+<!-- {{ with .Site.Params.blog_single }}
+<a href="{{ .button_url | absURL }}" class="btn" id="cta-button">
+  <span class="btn-area">
+    <span data-text="{{ .button }}">
+      {{ .button }}
+    </span>
+  </span>
+</a>
+{{ end }} -->
 
 {{ partial "call-to-action.html" . }}
 
