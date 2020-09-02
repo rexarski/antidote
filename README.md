@@ -2,6 +2,14 @@
 
 Antidote is a customized Hugo theme based on [Roxo](https://github.com/StaticMania/roxo-hugo).
 
+![img](screenshot-01.png)
+
+![img](screenshot-02.png)
+
+![img](screenshot-03.png)
+
+Demo: [hugo-antidote.netlify.app](https://hugo-antidote.netlify.app/)
+
 ## Features
 
 * Responsive Ready.
